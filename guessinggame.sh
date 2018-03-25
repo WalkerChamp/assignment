@@ -1,6 +1,7 @@
 echo "Guessing game"
 
-function guessgame {
+function guessgame 
+{
 b=`find . -type f | wc -l`
 }
 
@@ -8,6 +9,8 @@ guessgame
 
 echo "Try to guess how many files are in the current directory"
 
+# a - files count
+# b - user guess
 while [[ $a -ne $b ]]
   do
 
