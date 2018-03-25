@@ -9,8 +9,8 @@ guessgame
 
 echo "Try to guess how many files are in the current directory"
 
-# a - files count
-# b - user guess
+# a - user guess
+# b - files count
 while [[ $a -ne $b ]]
   do
 
@@ -27,5 +27,5 @@ while [[ $a -ne $b ]]
 guessgame 
 
 done
-echo "Correct! Contratulations!!!"
+echo "Correct! Congratulations!!!"
 
